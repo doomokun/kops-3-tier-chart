@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  kops-3-tier-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-19T17:06:24.891412+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 2fe223fc8de642a61a7bae9b0d775539d8d2d65f224834d3879aab1fde7e48cf
+    name: kops-3-tier-chart
+    type: application
+    urls:
+    - https://doomokun.github.io/kops-3-tier-chart/kops-3-tier-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-19T17:06:24.884268+08:00"
