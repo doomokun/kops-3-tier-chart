@@ -3,7 +3,17 @@ entries:
   kops-3-tier-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-19T17:24:52.624514+08:00"
+    created: "2022-10-19T17:29:55.202825+08:00"
+    description: A Helm chart for Kubernetes
+    digest: e114e53af966cf0486a11d0c354a881a3e712ee365aa953b505f08806f3c2ed5
+    name: kops-3-tier-chart
+    type: application
+    urls:
+    - https://doomokun.github.io/kops-3-tier-chart/kops-3-tier-chart-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-19T17:29:55.202483+08:00"
     description: A Helm chart for Kubernetes
     digest: dc2ddb4a85b8b9a620e06aa4d321c43248c1e18c065b3e7ae1d076558751ee19
     name: kops-3-tier-chart
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-19T17:24:52.624224+08:00"
+    created: "2022-10-19T17:29:55.20216+08:00"
     description: A Helm chart for Kubernetes
     digest: 2fe223fc8de642a61a7bae9b0d775539d8d2d65f224834d3879aab1fde7e48cf
     name: kops-3-tier-chart
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://doomokun.github.io/kops-3-tier-chart/kops-3-tier-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-19T17:24:52.62374+08:00"
+generated: "2022-10-19T17:29:55.201619+08:00"
