@@ -1,0 +1,40 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app-ingress
+  annotations:
+    # kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/add-base-url: "true"
+  labels:
+    name: app-ingress
+spec:
+  # ingressClassName: nginx
+  rules:
+    - host: doomookuun-devops.click
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: app-web
+                port:
+                  number: 3000
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: app-server
+                port:
+                  number: 9000
+          - path: /jenkins
+            pathType: Prefix
+            backend:
+              service:
+                name: jenkins-service
+                port:
+                  number: 8080
+  # tls:
+  #   - hosts:
+  #       - doomookuun-devops.click
+  #       secretName: litemall-admin-secret
