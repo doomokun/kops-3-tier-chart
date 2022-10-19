@@ -16,7 +16,7 @@ $ helm package .
 $ helm repo index .
 $ helm repo index . --url https://doomokun.github.io/kops-3-tier-chart
 
-$ helm upgrade --install kops-3-tier kops-3-tier-repo/kops-3-tier-chart --namespace=kops-3-tier
+$ helm upgrade --install kops-3-tier kops-3-tier-repo/kops-3-tier-chart --namespace=kops-3-tier --create-namespace
 
 $ helm repo list
 $ helm search repo
